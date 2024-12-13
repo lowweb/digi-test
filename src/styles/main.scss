@@ -1,0 +1,9 @@
+@import "variables.scss";
+@import "fonts.scss";
+@import "mixins.scss";
+@import "base.scss";
+@import "animation.scss";
+@import "_normalize.scss";
+
+//import all from blocks
+@import "../components/**/*.scss";

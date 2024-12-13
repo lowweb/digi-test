@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  &__logo {
+    display: flex;
+    align-items: center;
+  }
+
+  &__button {
+    font-family: $second-family;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+    border: 1px solid #73aff4;
+    border-radius: 8px;
+    padding: 15.25px 23px;
+    background-color: white;
+
+    &:hover {
+      background-color: #73aff4;
+    }
+  }
+}

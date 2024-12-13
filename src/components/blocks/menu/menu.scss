@@ -1,0 +1,23 @@
+.menu {
+  &__list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+
+  &__link {
+    text-decoration: none;
+    font-family: $second-family;
+    font-weight: 400;
+    font-size: 14px;
+    color: #393939;
+
+    &:hover {
+      color: $color-font-hover;
+    }
+
+    &:active {
+      color: $color-font-hover;
+    }
+  }
+}
